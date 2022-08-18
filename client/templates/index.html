@@ -1,0 +1,9 @@
+<template name="index">
+    Welcome to Inventory Manager
+    This application helps in inventory management
+
+    {{#each products}}
+       {{> productsList}}
+    {{/each}}
+    <button class="lazyload">Load More</button>
+</template>
